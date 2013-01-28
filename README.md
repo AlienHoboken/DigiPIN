@@ -13,11 +13,14 @@ Using
 -----
 Prerequisits: jQuery Library v. 1.4.2 or greater
 
-First, include DigiPIN as well as a compatible version of jQuery (see above).
+First, include DigiPIN as well as a compatible version of jQuery (see above) and a DigiPIN CSS stylsheet.
+
+DigiPIN comes with 3 styles by default. A light, a dark, and a nobackground feature. You can simply modify the css to change these files. I prefer the dark though.
 
 ```html
+<link rel="stylesheet" href="css/digipin-style-dark.css" />
 <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-<script src="test.js"></script>
+<script src="digipin-0.1.0.min.js"></script>
 ```
 
 Then just initialize DigiPIN on a text input element.
