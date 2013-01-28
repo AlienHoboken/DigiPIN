@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DigiPin Demo</title>
+		<link rel="stylesheet" href="css/digipin-style-dark.css" />
+		<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+		<script src="digipin-0.1.0.min.js"></script>
+		<script>
+		$(document).ready(function() {
+		  $('#myInput').digipin();
+		});
+		</script>
+	</head>
+	<body>
+		<div id="digipin"></div>
+		<form action="fake.php" method="get">
+			<label>PIN:</label> <input type="text" name="pin" id="myInput" />
+		</form>
+		<h3>You should make this a hidden field in a production system.
+		<br />
+		It is not hidden here for demonstration purposes.</h1>
+	</body>
+</html>

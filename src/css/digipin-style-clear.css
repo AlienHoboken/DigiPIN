@@ -1,0 +1,91 @@
+div#digipin {
+  width: 160px;
+  height: 170px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+div.digipin-button {
+  width: 40px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Start Background Gradient */
+  background-image: linear-gradient(top, rgb(230,230,230) 10%, rgb(209,209,209) 55%, rgb(196,196,196) 78%);
+  background-image: -o-linear-gradient(top, rgb(230,230,230) 10%, rgb(209,209,209) 55%, rgb(196,196,196) 78%);
+  background-image: -moz-linear-gradient(top, rgb(230,230,230) 10%, rgb(209,209,209) 55%, rgb(196,196,196) 78%);
+  background-image: -webkit-linear-gradient(top, rgb(230,230,230) 10%, rgb(209,209,209) 55%, rgb(196,196,196) 78%);
+  background-image: -ms-linear-gradient(top, rgb(230,230,230) 10%, rgb(209,209,209) 55%, rgb(196,196,196) 78%);
+
+  background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.1, rgb(230,230,230)),
+	color-stop(0.55, rgb(209,209,209)),
+	color-stop(0.78, rgb(196,196,196))
+  );
+  /* End Background Gradient */
+}
+
+div.digipin-button:hover {
+  /* Start Background Gradient */
+  background-image: linear-gradient(top, rgb(235,232,235) 1%, rgb(191,191,191) 51%, rgb(168,168,168) 76%);
+  background-image: -o-linear-gradient(top, rgb(235,232,235) 1%, rgb(191,191,191) 51%, rgb(168,168,168) 76%);
+  background-image: -moz-linear-gradient(top, rgb(235,232,235) 1%, rgb(191,191,191) 51%, rgb(168,168,168) 76%);
+  background-image: -webkit-linear-gradient(top, rgb(235,232,235) 1%, rgb(191,191,191) 51%, rgb(168,168,168) 76%);
+  background-image: -ms-linear-gradient(top, rgb(235,232,235) 1%, rgb(191,191,191) 51%, rgb(168,168,168) 76%);
+
+  background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.01, rgb(235,232,235)),
+	color-stop(0.51, rgb(191,191,191)),
+	color-stop(0.76, rgb(168,168,168))
+  );
+  /* End Background Gradient */
+}
+
+div.digipin-button:active {
+  /* Start Background Gradient */
+  background-image: linear-gradient(bottom, rgb(84,84,84) 1%, rgb(117,117,117) 51%, rgb(138,138,138) 76%);
+  background-image: -o-linear-gradient(bottom, rgb(84,84,84) 1%, rgb(117,117,117) 51%, rgb(138,138,138) 76%);
+  background-image: -moz-linear-gradient(bottom, rgb(84,84,84) 1%, rgb(117,117,117) 51%, rgb(138,138,138) 76%);
+  background-image: -webkit-linear-gradient(bottom, rgb(84,84,84) 1%, rgb(117,117,117) 51%, rgb(138,138,138) 76%);
+  background-image: -ms-linear-gradient(bottom, rgb(84,84,84) 1%, rgb(117,117,117) 51%, rgb(138,138,138) 76%);
+
+  background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.01, rgb(84,84,84)),
+	color-stop(0.51, rgb(117,117,117)),
+	color-stop(0.76, rgb(138,138,138))
+  );
+  /* End Background Gradient */
+}
+
+div#digipin-enter {
+  width: 90px;
+}
+
+div.digipin-button > div.digipin-text {
+  margin: 0px;
+  margin-top: -4px; 
+  font-family: Arial, Helvetica;
+  font-size: 18px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
