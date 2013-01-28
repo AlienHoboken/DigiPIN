@@ -7,6 +7,8 @@ DigiPin also employs a keypad which randomizes the location of the numbers befor
 
 Currently only one DigiPIN can be used per page, this will change in the next day or two.
 
+DigiPIN is licensed under the MIT license.
+
 Using
 -----
 Prerequisits: jQuery Library v. 1.4.2 or greater
