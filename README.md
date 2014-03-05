@@ -3,9 +3,9 @@ About
 
 DigiPIN is a randomized digital PIN entry tool for websites written in javascript using jQuery. DigiPIN allows users to more securely enter their PIN by avoiding keyboard input and thus reducing the risk from malicious programs such as keyloggers.
 
-DigiPin also employs a keypad which randomizes the location of the numbers befor every input.
+DigiPin also employs a keypad which randomizes the location of the numbers before every input.
 
-Currently only one DigiPIN can be used per page, this will change in the next day or two.
+Currently only one DigiPIN can be used per page.
 
 DigiPIN is licensed under the MIT license.
 
